@@ -57,10 +57,6 @@ wants a model, hair, set or accessory that is missing, or `status` shows missing
    another hair or set) and say so in one line.
 5. When done: "Got it. You can close Roblox Studio again."
 
-## 2-hero. The user's character is ALWAYS the main character
-Before writing any story, read `hero/HERO.md`: the user's own Roblox avatar (`hero/hero.json`, "Kiet") is the first cast entry
-and the protagonist of every Short, unless the user says otherwise for that one story.
-
 ## 2a. Pick a format
 If the user names a format ("a POV", "in this world...", "rich vs poor") or gives no format, read `FORMATS.md` and pick one
 (no format given: the top-ranked format that fits the idea; say which in one line). Set `"format"` in story.json and use the keys
