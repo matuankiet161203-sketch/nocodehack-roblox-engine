@@ -1,0 +1,606 @@
+{
+  "title": "The Town at 3 AM",
+  "format": "narrated_twist",
+  "narrator": {
+    "voice": "Adam"
+  },
+  "captions": "word",
+  "mood": "tense",
+  "fps": 24,
+  "cards": [
+    {
+      "type": "time",
+      "text": "3:00 AM",
+      "scene": 1,
+      "t": 0.0,
+      "dur": 1.6
+    }
+  ],
+  "cast": [
+    {
+      "name": "Kiet",
+      "shirt": "#1C1C1E",
+      "pants": "#26262A",
+      "skin": "#A98BF0",
+      "hair": "#B5381C",
+      "hair_style": "lib:spiky_anime1",
+      "outfit": {
+        "pants": "lib:ripped_jeans"
+      },
+      "face": "lib:up_to_something",
+      "face_family": "classic"
+    },
+    {
+      "name": "Tam",
+      "shirt": "#7A5C3E",
+      "pants": "#3A3A4A",
+      "hair": "#C8C8C8",
+      "hair_style": "short",
+      "face": "smile",
+      "face_family": "drawn"
+    },
+    {
+      "name": "Lan",
+      "shirt": "#E86FA8",
+      "pants": "#2B3A67",
+      "hair": "#E8C060",
+      "hair_style": "ponytail",
+      "face": "smile",
+      "face_family": "drawn"
+    }
+  ],
+  "scenes": [
+    {
+      "set": {
+        "preset": "bedroom",
+        "time": "night",
+        "mood": "cool"
+      },
+      "seconds": 10,
+      "cast": [
+        {
+          "name": "Kiet",
+          "at": [
+            2,
+            -3
+          ],
+          "yaw": 0,
+          "face": "worry"
+        }
+      ],
+      "props": [
+        {
+          "name": "bowl",
+          "kind": "food-kit/bowl",
+          "at": [
+            5,
+            -5
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.3,
+          "who": "Kiet",
+          "face": "worry",
+          "narrate": "Every night at 3 AM, my whole town stands outside my house... *staring*."
+        },
+        {
+          "t": 1.2,
+          "who": "Kiet",
+          "look": "lampRoundTable"
+        },
+        {
+          "t": 2.6,
+          "who": "Kiet",
+          "look": "bowl",
+          "face": "sad"
+        },
+        {
+          "t": 5.4,
+          "who": "Kiet",
+          "narrate": "I always leave my *light* on. Just in case."
+        },
+        {
+          "t": 5.6,
+          "who": "Kiet",
+          "pose": "slump",
+          "move": 10
+        },
+        {
+          "t": 7.4,
+          "who": "Kiet",
+          "face": "scared",
+          "pose": "recoil",
+          "exclaim": true,
+          "sfx": "creak"
+        },
+        {
+          "t": 8.4,
+          "who": "Kiet",
+          "pose": "cover_mouth_R"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "full",
+          "on": [
+            "Kiet"
+          ]
+        },
+        {
+          "t": 2.4,
+          "kind": "medium",
+          "on": [
+            "Kiet"
+          ]
+        },
+        {
+          "t": 7.3,
+          "kind": "close",
+          "on": [
+            "Kiet"
+          ],
+          "hold": true
+        }
+      ]
+    },
+    {
+      "set": {
+        "preset": "street",
+        "time": "night",
+        "mood": "cool"
+      },
+      "seconds": 12,
+      "crowd": {
+        "n": 14,
+        "area": "back",
+        "act": "idle"
+      },
+      "cast": [
+        {
+          "name": "Kiet",
+          "at": [
+            -12,
+            -6
+          ],
+          "yaw": 60,
+          "face": "worry"
+        },
+        {
+          "name": "Tam",
+          "at": [
+            0,
+            6
+          ],
+          "yaw": 0,
+          "face": "smile"
+        },
+        {
+          "name": "Lan",
+          "at": [
+            -5,
+            7
+          ],
+          "yaw": 10,
+          "face": "smile"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.3,
+          "who": "Kiet",
+          "walk": [
+            [
+              -4,
+              -3
+            ]
+          ],
+          "speed": 5,
+          "face": "worry"
+        },
+        {
+          "t": 0.5,
+          "who": "Kiet",
+          "narrate": "Tonight, I finally walked out to them."
+        },
+        {
+          "t": 3.4,
+          "who": "Tam",
+          "look": "Kiet",
+          "face": "grin"
+        },
+        {
+          "t": 3.7,
+          "who": "Lan",
+          "look": "Kiet",
+          "face": "grin"
+        },
+        {
+          "t": 4.1,
+          "who": "Kiet",
+          "narrate": "Nobody talked. Nobody blinked. They just... *smiled*."
+        },
+        {
+          "t": 4.4,
+          "who": "Kiet",
+          "face": "scared",
+          "pose": "recoil"
+        },
+        {
+          "t": 5.8,
+          "who": "Kiet",
+          "look": "Tam"
+        },
+        {
+          "t": 7.6,
+          "who": "Tam",
+          "walk": [
+            [
+              -1,
+              1
+            ]
+          ],
+          "speed": 3
+        },
+        {
+          "t": 8.0,
+          "who": "Tam",
+          "narrate": "Then old Tam stepped forward... with a *box*."
+        },
+        {
+          "t": 9.6,
+          "who": "Kiet",
+          "face": "scared",
+          "pose": "cower"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "wide",
+          "on": [
+            "Kiet",
+            "Tam",
+            "Lan"
+          ],
+          "keep_two": true
+        },
+        {
+          "t": 3.3,
+          "kind": "full",
+          "on": [
+            "Tam",
+            "Lan"
+          ]
+        },
+        {
+          "t": 4.3,
+          "kind": "close",
+          "on": [
+            "Kiet"
+          ]
+        },
+        {
+          "t": 7.5,
+          "kind": "full",
+          "on": [
+            "Tam"
+          ],
+          "angle": "low",
+          "track": true
+        },
+        {
+          "t": 9.5,
+          "kind": "close",
+          "on": [
+            "Kiet"
+          ],
+          "hold": true
+        }
+      ]
+    },
+    {
+      "set": {
+        "preset": "street",
+        "time": "night",
+        "mood": "cool"
+      },
+      "seconds": 8,
+      "establish": false,
+      "cast": [
+        {
+          "name": "Kiet",
+          "at": [
+            -4,
+            -3
+          ],
+          "yaw": 40,
+          "face": "scared"
+        },
+        {
+          "name": "Tam",
+          "at": [
+            -1,
+            1
+          ],
+          "yaw": -140,
+          "face": "smile"
+        },
+        {
+          "name": "Lan",
+          "at": [
+            -5,
+            7
+          ],
+          "yaw": 10,
+          "face": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "box",
+          "kind": "box",
+          "at": [
+            -2.5,
+            -1
+          ],
+          "shake": [
+            2.0,
+            4.2
+          ]
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.3,
+          "who": "Tam",
+          "look": "box",
+          "pose": "open_palms"
+        },
+        {
+          "t": 0.6,
+          "who": "Kiet",
+          "narrate": "The box was moving."
+        },
+        {
+          "t": 1.0,
+          "who": "Kiet",
+          "look": "box",
+          "face": "worry"
+        },
+        {
+          "t": 2.1,
+          "who": "Kiet",
+          "face": "scared",
+          "pose": "recoil",
+          "sfx": "thud"
+        },
+        {
+          "t": 3.0,
+          "who": "Kiet",
+          "narrate": "Then it *barked*."
+        },
+        {
+          "t": 4.3,
+          "who": "Kiet",
+          "face": "o",
+          "exclaim": true
+        },
+        {
+          "t": 6.4,
+          "who": "Kiet",
+          "face": "joy",
+          "freeze": {
+            "label": "MY LOST DOG",
+            "dur": 1.2
+          }
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "full",
+          "on": [
+            "Tam",
+            "Kiet"
+          ]
+        },
+        {
+          "t": 1.9,
+          "kind": "medium",
+          "on": [
+            "Kiet"
+          ]
+        },
+        {
+          "t": 4.2,
+          "kind": "close",
+          "on": [
+            "Kiet"
+          ],
+          "hold": true
+        }
+      ]
+    },
+    {
+      "set": {
+        "preset": "street",
+        "time": "day",
+        "mood": "sunset"
+      },
+      "seconds": 15,
+      "music": "chill",
+      "crowd": {
+        "n": 14,
+        "area": "back",
+        "act": "cheer"
+      },
+      "cast": [
+        {
+          "name": "Kiet",
+          "at": [
+            0,
+            -3
+          ],
+          "yaw": 0,
+          "face": "cry"
+        },
+        {
+          "name": "Tam",
+          "at": [
+            5,
+            0
+          ],
+          "yaw": -40,
+          "face": "smile"
+        },
+        {
+          "name": "Lan",
+          "at": [
+            -5,
+            0
+          ],
+          "yaw": 40,
+          "face": "smile"
+        }
+      ],
+      "props": [
+        {
+          "name": "box",
+          "kind": "box",
+          "held_by": "Kiet",
+          "hand": "R"
+        }
+      ],
+      "beats": [
+        {
+          "t": 0.3,
+          "who": "Kiet",
+          "face": "cry",
+          "look": "box"
+        },
+        {
+          "t": 0.5,
+          "who": "Kiet",
+          "narrate": "He ran away a month ago. I kept my *light* on for him."
+        },
+        {
+          "t": 2.2,
+          "who": "Lan",
+          "look": "Kiet",
+          "face": "smile"
+        },
+        {
+          "t": 3.6,
+          "who": "Tam",
+          "look": "Kiet",
+          "pose": "proud"
+        },
+        {
+          "t": 4.8,
+          "who": "Kiet",
+          "look": "Tam",
+          "face": "joy"
+        },
+        {
+          "t": 5.6,
+          "who": "Kiet",
+          "narrate": "The whole town saw it... and searched with me every night."
+        },
+        {
+          "t": 6.4,
+          "who": "Lan",
+          "anim": "applaud",
+          "loop": 2.5
+        },
+        {
+          "t": 8.2,
+          "who": "Kiet",
+          "look": "Lan",
+          "face": "laugh"
+        },
+        {
+          "t": 10.2,
+          "who": "Kiet",
+          "narrate": "They weren't staring at me. They were *waiting with me*."
+        },
+        {
+          "t": 10.5,
+          "who": "Kiet",
+          "look": "box",
+          "face": "cry"
+        },
+        {
+          "t": 12.6,
+          "who": "Kiet",
+          "face": "joy",
+          "jump": 0.9
+        },
+        {
+          "t": 13.0,
+          "who": "Tam",
+          "anim": "cheer"
+        }
+      ],
+      "shots": [
+        {
+          "t": 0,
+          "kind": "full",
+          "on": [
+            "Kiet"
+          ]
+        },
+        {
+          "t": 2.1,
+          "kind": "medium",
+          "on": [
+            "Lan"
+          ]
+        },
+        {
+          "t": 3.5,
+          "kind": "medium",
+          "on": [
+            "Tam"
+          ]
+        },
+        {
+          "t": 4.7,
+          "kind": "medium",
+          "on": [
+            "Kiet"
+          ]
+        },
+        {
+          "t": 7.0,
+          "kind": "wide",
+          "on": [
+            "Kiet",
+            "Tam",
+            "Lan"
+          ]
+        },
+        {
+          "t": 10.4,
+          "kind": "close",
+          "on": [
+            "Kiet"
+          ],
+          "hold": true
+        },
+        {
+          "t": 12.4,
+          "kind": "full",
+          "on": [
+            "Kiet",
+            "Tam",
+            "Lan"
+          ],
+          "hold": true
+        }
+      ]
+    }
+  ]
+}
