@@ -337,7 +337,7 @@
     {
      "t": 4.8,
      "who": "Kiet",
-     "fall": "forward",
+     "fall": "back",
      "face": "scream"
     },
     {
@@ -458,6 +458,13 @@
      "track": true
     },
     {
+     "t": 4.6,
+     "kind": "wide",
+     "on": [
+      "Kiet"
+     ]
+    },
+    {
      "t": 8.6,
      "kind": "medium",
      "on": [
@@ -538,8 +545,8 @@
      "kind": "book",
      "on": "coffee table",
      "at": [
-      0.3,
-      0
+      0.0,
+      -0.6
      ]
     }
    ],
@@ -641,7 +648,12 @@
     {
      "t": 13.8,
      "who": "Kiet",
-     "walk": "album",
+     "walk": [
+      [
+       -0.6,
+       -2.0
+      ]
+     ],
      "speed": 5
     },
     {
@@ -833,7 +845,12 @@
     {
      "t": 5.6,
      "who": "Ghost",
-     "walk": "Kiet",
+     "walk": [
+      [
+       -0.8,
+       -0.6
+      ]
+     ],
      "speed": 2,
      "stride": 16
     },
