@@ -18,7 +18,7 @@
    "type": "label",
    "text": "HÃY GỌI CHO ÔNG BÀ HÔM NAY",
    "scene": 6,
-   "t": 21.0,
+   "t": 15.6,
    "dur": 2.8
   }
  ],
@@ -68,7 +68,7 @@
     "time": "night",
     "mood": "spooky"
    },
-   "seconds": 18,
+   "seconds": 8.6,
    "establish": false,
    "cast": [
     {
@@ -96,9 +96,9 @@
       1
      ],
      "shake": [
-      6.5,
-      7.3,
-      8.0
+      2.4,
+      2.9,
+      3.4
      ]
     }
    ],
@@ -106,54 +106,35 @@
     {
      "t": 0.0,
      "who": "Kiet",
-     "sit": "desk chair",
      "look": "desk",
      "face": "neutral"
     },
     {
-     "t": 1.0,
-     "who": "Kiet",
+     "t": 0.0,
+     "who": "Ghost",
      "narrate": "Trong thế giới này, ai bị *lãng quên* sẽ biến thành bóng ma.",
      "narrate_voice": "voice/01_dan.mp3"
     },
     {
-     "t": 6.7,
+     "t": 2.5,
      "who": "Kiet",
      "face": "o",
      "look": "box"
     },
     {
-     "t": 7.4,
+     "t": 3.0,
      "who": "Kiet",
      "face": "worry",
      "exclaim": true
     },
     {
-     "t": 8.4,
-     "who": "Kiet",
+     "t": 3.7,
+     "who": "Ghost",
      "narrate": "Và đêm nay, có thứ gì đó đang *tìm* Kiệt.",
      "narrate_voice": "voice/02_dan.mp3"
     },
     {
-     "t": 8.8,
-     "who": "Kiet",
-     "stand": true
-    },
-    {
-     "t": 9.4,
-     "who": "Kiet",
-     "walk": "box",
-     "speed": 4,
-     "stride": 22
-    },
-    {
-     "t": 11.4,
-     "who": "Kiet",
-     "pose": "look_down",
-     "face": "confused"
-    },
-    {
-     "t": 11.6,
+     "t": 3.8,
      "who": "Ghost",
      "walk": [
       [
@@ -165,34 +146,28 @@
      "stride": 18
     },
     {
-     "t": 12.9,
-     "who": "Kiet",
-     "look": "desk",
-     "face": "neutral"
-    },
-    {
-     "t": 13.5,
+     "t": 5.2,
      "who": "Kiet",
      "look": "Ghost",
      "face": "scream",
      "pose": "recoil"
     },
     {
-     "t": 13.8,
+     "t": 6.4,
+     "who": "Kiet",
+     "talk": 1.67,
+     "say": "Ai... ai đó?",
+     "voice": "voice/03_kiet.mp3",
+     "face": "scared"
+    },
+    {
+     "t": 7.6,
      "who": "Ghost",
      "look": "Kiet",
      "face": "sad"
     },
     {
-     "t": 14.6,
-     "who": "Kiet",
-     "talk": 1.67,
-     "say": "Ai... ai đó?",
-     "face": "scared",
-     "voice": "voice/03_kiet.mp3"
-    },
-    {
-     "t": 16.2,
+     "t": 8.2,
      "who": "Kiet",
      "pose": "cower",
      "face": "cry"
@@ -208,29 +183,21 @@
      "front": true
     },
     {
-     "t": 6.6,
+     "t": 2.4,
      "kind": "insert",
      "on": [
       "box"
      ]
     },
     {
-     "t": 7.3,
+     "t": 3.1,
      "kind": "close",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 9.3,
-     "kind": "full",
-     "on": [
-      "Kiet"
-     ],
-     "track": true
-    },
-    {
-     "t": 11.5,
+     "t": 4.0,
      "kind": "full",
      "on": [
       "Kiet",
@@ -240,7 +207,7 @@
      "hold": true
     },
     {
-     "t": 13.4,
+     "t": 5.6,
      "kind": "close",
      "on": [
       "Kiet"
@@ -248,7 +215,7 @@
      "hold": true
     },
     {
-     "t": 15.9,
+     "t": 7.6,
      "kind": "medium",
      "on": [
       "Ghost"
@@ -264,7 +231,7 @@
     "time": "night",
     "mood": "spooky"
    },
-   "seconds": 20,
+   "seconds": 13.3,
    "cast": [
     {
      "name": "Kiet",
@@ -284,38 +251,38 @@
    ],
    "beats": [
     {
-     "t": 0.2,
-     "who": "Kiet",
-     "walk": [
-      [
-       0,
-       2
-      ]
-     ],
-     "run": true,
-     "speed": 11,
-     "face": "scared"
-    },
-    {
-     "t": 0.5,
-     "who": "Kiet",
+     "t": 0.0,
+     "who": "Ghost",
      "narrate": "Kiệt chạy. Nhưng căn nhà như *dài* ra mãi.",
      "narrate_voice": "voice/04_dan.mp3"
     },
     {
-     "t": 2.2,
+     "t": 0.0,
+     "who": "Kiet",
+     "walk": [
+      [
+       0,
+       5
+      ]
+     ],
+     "run": true,
+     "speed": 12,
+     "face": "scared"
+    },
+    {
+     "t": 0.2,
      "who": "Ghost",
      "walk": [
       [
        0,
-       9
+       12
       ]
      ],
      "speed": 2.5,
      "stride": 18
     },
     {
-     "t": 2.4,
+     "t": 3.1,
      "who": "Kiet",
      "turn": 180,
      "look": "Ghost",
@@ -323,19 +290,13 @@
      "exclaim": true
     },
     {
-     "t": 3.4,
+     "t": 3.1,
      "who": "Kiet",
-     "walk": [
-      [
-       -3,
-       -8
-      ]
-     ],
-     "run": true,
-     "speed": 12
+     "narrate": "Cái bóng trắng bước tới. Từng bước. *Chậm rãi*.",
+     "narrate_voice": "voice/05_dan.mp3"
     },
     {
-     "t": 4.8,
+     "t": 3.9,
      "who": "Kiet",
      "fall": "back",
      "face": "scream"
@@ -343,88 +304,52 @@
     {
      "t": 5.0,
      "who": "Kiet",
-     "narrate": "Cái bóng trắng bước tới. Từng bước. *Chậm rãi*.",
-     "narrate_voice": "voice/05_dan.mp3"
-    },
-    {
-     "t": 5.4,
-     "who": "Ghost",
-     "walk": [
-      [
-       -2,
-       -1
-      ]
-     ],
-     "speed": 2.5,
-     "stride": 18
-    },
-    {
-     "t": 6.2,
-     "who": "Kiet",
      "face": "cry"
     },
     {
-     "t": 7.6,
+     "t": 6.0,
      "who": "Kiet",
      "get_up": true
     },
     {
-     "t": 8.7,
-     "who": "Kiet",
-     "look": "Ghost",
-     "pose": "plead",
-     "face": "scared"
-    },
-    {
-     "t": 9.3,
+     "t": 6.7,
      "who": "Kiet",
      "talk": 1.2,
      "say": "Đừng lại gần tôi!",
-     "face": "scream",
-     "voice": "voice/06_kiet.mp3"
+     "voice": "voice/06_kiet.mp3",
+     "look": "Ghost",
+     "pose": "plead",
+     "face": "scream"
     },
     {
-     "t": 11.2,
+     "t": 7.6,
      "who": "Ghost",
      "pose": "reach_R",
      "face": "sad",
      "look": "Kiet"
     },
     {
-     "t": 11.8,
+     "t": 8.25,
      "who": "Ghost",
      "talk": 1.25,
      "say": "Kiệt... đừng sợ...",
-     "gesture": false,
-     "voice": "voice/07_ba.mp3"
+     "voice": "voice/07_ba.mp3",
+     "gesture": false
     },
     {
-     "t": 13.3,
+     "t": 9.6,
      "who": "Kiet",
      "face": "confused",
      "pose": "cower"
     },
     {
-     "t": 13.4,
+     "t": 9.85,
      "who": "Kiet",
      "narrate": "Bóng ma biết *tên* cậu. Nhưng Kiệt chưa từng gặp nó.",
      "narrate_voice": "voice/08_dan.mp3"
     },
     {
-     "t": 15.4,
-     "who": "Kiet",
-     "walk": [
-      [
-       5,
-       -12
-      ]
-     ],
-     "run": true,
-     "speed": 11,
-     "face": "scared"
-    },
-    {
-     "t": 17.0,
+     "t": 11.2,
      "who": "Ghost",
      "face": "cry",
      "pose": "slump",
@@ -441,7 +366,7 @@
      "track": true
     },
     {
-     "t": 2.3,
+     "t": 1.6,
      "kind": "wide",
      "on": [
       "Ghost"
@@ -450,29 +375,28 @@
      "hold": true
     },
     {
-     "t": 3.3,
+     "t": 3.1,
      "kind": "full",
      "on": [
       "Kiet"
-     ],
-     "track": true
+     ]
     },
     {
-     "t": 4.6,
+     "t": 3.9,
      "kind": "wide",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 8.6,
+     "t": 6.6,
      "kind": "medium",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 11.1,
+     "t": 8.1,
      "kind": "medium",
      "on": [
       "Ghost"
@@ -480,22 +404,14 @@
      "angle": "low"
     },
     {
-     "t": 13.2,
+     "t": 9.7,
      "kind": "close",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 15.3,
-     "kind": "full",
-     "on": [
-      "Kiet"
-     ],
-     "track": true
-    },
-    {
-     "t": 16.9,
+     "t": 11.4,
      "kind": "medium",
      "on": [
       "Ghost"
@@ -511,15 +427,14 @@
     "time": "night",
     "mood": "spooky"
    },
-   "seconds": 22,
+   "seconds": 11.9,
    "cast": [
     {
      "name": "Kiet",
      "at": [
-      -13,
-      -4
+      -2.0,
+      -0.2
      ],
-     "yaw": 90,
      "face": "scared"
     },
     {
@@ -533,7 +448,7 @@
     {
      "name": "Ghost",
      "at": [
-      14,
+      9,
       6
      ],
      "yaw": -90
@@ -553,145 +468,89 @@
    "beats": [
     {
      "t": 0.0,
+     "who": "Kiet",
+     "talk": 2.66,
+     "say": "Mẹ ơi! Có ma trong nhà!",
+     "voice": "voice/09_kiet.mp3",
+     "face": "scream",
+     "look": "Mom"
+    },
+    {
+     "t": 0.0,
      "who": "Mom",
      "sit": "sofa",
      "face": "neutral_shut"
     },
     {
-     "t": 0.3,
-     "who": "Kiet",
-     "walk": "Mom",
-     "run": true,
-     "speed": 11
-    },
-    {
-     "t": 1.6,
-     "who": "Kiet",
-     "talk": 2.66,
-     "say": "Mẹ ơi! Có ma trong nhà!",
-     "face": "scream",
-     "voice": "voice/09_kiet.mp3"
-    },
-    {
-     "t": 4.1,
+     "t": 2.2,
      "who": "Mom",
      "face": "confused",
      "look": "Kiet"
     },
     {
-     "t": 4.6,
+     "t": 2.5,
      "who": "Mom",
      "talk": 3.13,
      "say": "Ma nào? Nhà mình chỉ có hai mẹ con thôi mà.",
-     "face": "smile",
-     "voice": "voice/10_me.mp3"
+     "voice": "voice/10_me.mp3",
+     "face": "smile"
     },
     {
-     "t": 9.0,
+     "t": 5.7,
      "who": "Kiet",
      "face": "worry"
     },
     {
-     "t": 9.1,
+     "t": 5.95,
      "who": "Kiet",
      "narrate": "Mẹ không thấy gì. Vì mẹ cũng đã *quên*.",
      "narrate_voice": "voice/11_dan.mp3"
     },
     {
-     "t": 9.4,
-     "who": "Ghost",
-     "walk": [
-      [
-       9,
-       6
-      ]
-     ],
-     "speed": 2.5,
-     "stride": 18
-    },
-    {
-     "t": 10.6,
-     "who": "Kiet",
-     "look": "Mom",
-     "face": "neutral"
-    },
-    {
-     "t": 11.1,
+     "t": 7.2,
      "who": "Kiet",
      "look": "Ghost",
      "face": "scared",
      "exclaim": true
     },
     {
-     "t": 11.7,
+     "t": 7.8,
      "who": "Kiet",
      "pose": "point_R",
      "face": "scream"
     },
     {
-     "t": 12.3,
+     "t": 8.0,
      "who": "Ghost",
      "look": "album",
      "face": "sad"
     },
     {
-     "t": 12.7,
+     "t": 8.3,
      "who": "Ghost",
      "pose": "point_L"
     },
     {
-     "t": 13.2,
+     "t": 8.6,
      "who": "Kiet",
      "look": "album",
      "face": "confused"
     },
     {
-     "t": 13.8,
-     "who": "Kiet",
-     "walk": [
-      [
-       -0.6,
-       -2.0
-      ]
-     ],
-     "speed": 5
-    },
-    {
-     "t": 15.4,
-     "who": "Kiet",
-     "grab": {
-      "prop": "album",
-      "hand": "R"
-     }
-    },
-    {
-     "t": 16.2,
-     "who": "Kiet",
-     "face": "o"
-    },
-    {
-     "t": 16.5,
-     "who": "Kiet",
+     "t": 8.75,
+     "who": "Ghost",
      "narrate": "Trong cuốn album cũ... là một *khuôn mặt* quen thuộc.",
      "narrate_voice": "voice/12_dan.mp3"
     },
     {
-     "t": 18.8,
+     "t": 10.2,
      "who": "Kiet",
-     "look": "Ghost",
-     "face": "sad"
+     "face": "o"
     },
     {
-     "t": 19.6,
-     "who": "Ghost",
-     "walk": [
-      [
-       13,
-       1
-      ]
-     ],
-     "speed": 2.5,
-     "stride": 18,
+     "t": 11.0,
+     "who": "Kiet",
+     "look": "Ghost",
      "face": "sad"
     }
    ],
@@ -706,14 +565,14 @@
      "keep_two": true
     },
     {
-     "t": 1.5,
+     "t": 1.4,
      "kind": "medium",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 4.5,
+     "t": 2.6,
      "kind": "medium",
      "on": [
       "Mom"
@@ -721,14 +580,14 @@
      "front": true
     },
     {
-     "t": 8.9,
+     "t": 6.0,
      "kind": "close",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 11.0,
+     "t": 7.2,
      "kind": "full",
      "on": [
       "Ghost",
@@ -738,41 +597,26 @@
      "hold": true
     },
     {
-     "t": 12.2,
+     "t": 8.2,
      "kind": "medium",
      "on": [
       "Ghost"
      ]
     },
     {
-     "t": 13.7,
-     "kind": "medium",
-     "on": [
-      "Kiet"
-     ],
-     "track": true
-    },
-    {
-     "t": 16.0,
+     "t": 9.0,
      "kind": "insert",
      "on": [
       "album"
      ]
     },
     {
-     "t": 17.2,
+     "t": 10.2,
      "kind": "close",
      "on": [
       "Kiet"
      ],
      "hold": true
-    },
-    {
-     "t": 19.5,
-     "kind": "wide",
-     "on": [
-      "Ghost"
-     ]
     }
    ]
   },
@@ -782,7 +626,7 @@
     "time": "night",
     "mood": "spooky"
    },
-   "seconds": 22,
+   "seconds": 14.2,
    "cast": [
     {
      "name": "Kiet",
@@ -796,8 +640,8 @@
     {
      "name": "Ghost",
      "at": [
-      6,
-      6
+      2,
+      2
      ],
      "yaw": 150
     }
@@ -813,12 +657,12 @@
    "beats": [
     {
      "t": 0.0,
-     "who": "Kiet",
+     "who": "Ghost",
      "narrate": "Kiệt đi theo bóng ma vào *khu rừng* sau nhà.",
      "narrate_voice": "voice/13_dan.mp3"
     },
     {
-     "t": 0.3,
+     "t": 0.0,
      "who": "Kiet",
      "walk": [
       [
@@ -831,19 +675,13 @@
      "face": "worry"
     },
     {
-     "t": 4.6,
+     "t": 3.4,
      "who": "Ghost",
-     "turn": "Kiet",
-     "face": "sad"
+     "narrate": "Gió tắt. Lửa trại *chập chờn*. Nó tiến lại gần...",
+     "narrate_voice": "voice/14_dan.mp3"
     },
     {
-     "t": 5.0,
-     "who": "Kiet",
-     "look": "Ghost",
-     "face": "scared"
-    },
-    {
-     "t": 5.6,
+     "t": 3.45,
      "who": "Ghost",
      "walk": [
       [
@@ -855,81 +693,66 @@
      "stride": 16
     },
     {
-     "t": 6.0,
+     "t": 5.6,
      "who": "Kiet",
-     "narrate": "Gió tắt. Lửa trại *chập chờn*. Nó tiến lại gần...",
-     "narrate_voice": "voice/14_dan.mp3"
+     "look": "Ghost",
+     "face": "scared"
+    },
+    {
+     "t": 6.3,
+     "who": "Kiet",
+     "pose": "recoil"
+    },
+    {
+     "t": 7.0,
+     "who": "Ghost",
+     "talk": 1.36,
+     "say": "Kiệt à... con không nhớ bà sao?",
+     "voice": "voice/15_ba.mp3",
+     "pose": "reach_R",
+     "look": "Kiet",
+     "face": "sad",
+     "gesture": false
     },
     {
      "t": 7.0,
      "who": "Kiet",
-     "pose": "recoil",
-     "face": "scared"
-    },
-    {
-     "t": 8.6,
-     "who": "Kiet",
-     "pose": "cower",
-     "face": "cry"
-    },
-    {
-     "t": 10.8,
-     "who": "Ghost",
-     "pose": "reach_R",
-     "look": "Kiet"
-    },
-    {
-     "t": 11.2,
-     "who": "Kiet",
      "pose": "hands_head",
-     "face": "scream",
-     "freeze": {
-      "label": "NÓ CHẠM VÀO CẬU...",
-      "dur": 1.2
-     }
+     "face": "scream"
     },
     {
-     "t": 12.6,
-     "who": "Ghost",
-     "talk": 1.36,
-     "say": "Kiệt à... con không nhớ bà sao?",
-     "face": "sad",
-     "gesture": false,
-     "voice": "voice/15_ba.mp3"
-    },
-    {
-     "t": 15.6,
+     "t": 8.4,
      "who": "Kiet",
      "look": "album",
      "face": "confused"
     },
     {
-     "t": 16.0,
+     "t": 8.6,
      "who": "Kiet",
      "pose": "look_down"
     },
     {
-     "t": 16.6,
-     "who": "Kiet",
+     "t": 8.7,
+     "who": "Ghost",
      "narrate": "Trong ảnh là bà, bế cậu bé Kiệt năm lên *ba*.",
      "narrate_voice": "voice/16_dan.mp3"
     },
     {
-     "t": 18.2,
+     "t": 11.0,
      "who": "Kiet",
      "look": "Ghost",
      "face": "o"
     },
     {
-     "t": 19.2,
+     "t": 12.4,
      "who": "Kiet",
      "talk": 1.44,
      "say": "Bà... Bà ngoại?",
-     "face": "cry",
-     "voice": "voice/17_kiet.mp3"
+     "voice": "voice/17_kiet.mp3",
+     "face": "cry"
     },
     {
-     "t": 20.8,
+     "t": 13.6,
      "who": "Ghost",
      "face": "cry",
      "pose": "plead",
@@ -946,7 +769,7 @@
      "track": true
     },
     {
-     "t": 4.5,
+     "t": 3.5,
      "kind": "full",
      "on": [
       "Ghost"
@@ -954,14 +777,14 @@
      "angle": "low"
     },
     {
-     "t": 5.5,
+     "t": 4.7,
      "kind": "medium",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 6.9,
+     "t": 5.9,
      "kind": "full",
      "on": [
       "Ghost",
@@ -970,7 +793,22 @@
      "keep_two": true
     },
     {
-     "t": 10.7,
+     "t": 7.0,
+     "kind": "close",
+     "on": [
+      "Ghost"
+     ]
+    },
+    {
+     "t": 8.4,
+     "kind": "medium",
+     "on": [
+      "Kiet"
+     ],
+     "hold": true
+    },
+    {
+     "t": 10.4,
      "kind": "close",
      "on": [
       "Kiet"
@@ -978,28 +816,7 @@
      "hold": true
     },
     {
-     "t": 12.5,
-     "kind": "close",
-     "on": [
-      "Ghost"
-     ]
-    },
-    {
-     "t": 15.5,
-     "kind": "insert",
-     "on": [
-      "album"
-     ]
-    },
-    {
-     "t": 18.1,
-     "kind": "close",
-     "on": [
-      "Kiet"
-     ]
-    },
-    {
-     "t": 20.7,
+     "t": 13.6,
      "kind": "close",
      "on": [
       "Ghost"
@@ -1014,14 +831,14 @@
     "time": "night",
     "mood": "warm"
    },
-   "seconds": 22,
+   "seconds": 16.1,
    "music": "chill",
    "cast": [
     {
      "name": "Kiet",
      "at": [
-      -4,
-      -4
+      -1.8,
+      -3.5
      ],
      "yaw": 70,
      "face": "cry"
@@ -1047,7 +864,7 @@
    "beats": [
     {
      "t": 0.0,
-     "who": "Kiet",
+     "who": "Ghost",
      "narrate": "Ngày xưa, bà kể chuyện cho Kiệt mỗi tối, bên *bếp lửa*.",
      "narrate_voice": "voice/18_dan.mp3"
     },
@@ -1064,66 +881,58 @@
      "face": "sad"
     },
     {
-     "t": 5.2,
+     "t": 3.95,
      "who": "Ghost",
      "talk": 2.3,
      "say": "Bà tưởng không còn ai nhớ đến bà nữa.",
+     "voice": "voice/19_ba.mp3",
      "face": "sad",
-     "gesture": false,
-     "voice": "voice/19_ba.mp3"
+     "gesture": false
     },
     {
-     "t": 8.9,
+     "t": 6.4,
      "who": "Kiet",
      "pose": "plead",
      "face": "cry",
      "move": 10
     },
     {
-     "t": 9.3,
+     "t": 6.6,
      "who": "Kiet",
      "talk": 3.53,
      "say": "Con xin lỗi bà... Con nhớ rồi. Con nhớ hết rồi!",
-     "face": "cry",
-     "voice": "voice/20_kiet.mp3"
+     "voice": "voice/20_kiet.mp3",
+     "face": "cry"
     },
     {
-     "t": 13.8,
-     "who": "Kiet",
-     "give": {
-      "prop": "album",
-      "to": "Ghost"
-     }
+     "t": 10.45,
+     "who": "Ghost",
+     "narrate": "Mỗi lần được *nhớ đến*, bóng ma lại ấm lên một chút.",
+     "narrate_voice": "voice/21_dan.mp3"
     },
     {
-     "t": 15.0,
+     "t": 11.6,
      "who": "Ghost",
      "look": "album",
      "face": "joy"
     },
     {
-     "t": 15.2,
-     "who": "Kiet",
-     "narrate": "Mỗi lần được *nhớ đến*, bóng ma lại ấm lên một chút.",
-     "narrate_voice": "voice/21_dan.mp3"
-    },
-    {
-     "t": 17.0,
+     "t": 12.5,
      "who": "Kiet",
      "face": "smile"
     },
     {
-     "t": 18.2,
+     "t": 13.75,
      "who": "Ghost",
-     "look": "Kiet",
      "talk": 2.04,
      "say": "Cảm ơn con, cháu yêu của bà.",
+     "voice": "voice/22_ba.mp3",
+     "look": "Kiet",
      "face": "smile",
-     "gesture": false,
-     "voice": "voice/22_ba.mp3"
+     "gesture": false
     },
     {
-     "t": 21.0,
+     "t": 15.9,
      "who": "Kiet",
      "pose": "proud",
      "face": "joy"
@@ -1148,31 +957,28 @@
      "push": 0
     },
     {
-     "t": 8.8,
+     "t": 6.4,
      "kind": "close",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 13.7,
-     "kind": "full",
+     "t": 10.4,
+     "kind": "insert",
      "on": [
-      "Kiet",
-      "Ghost"
-     ],
-     "keep_two": true,
-     "hold": true
+      "album"
+     ]
     },
     {
-     "t": 15.1,
+     "t": 11.6,
      "kind": "medium",
      "on": [
       "Ghost"
      ]
     },
     {
-     "t": 18.1,
+     "t": 13.7,
      "kind": "close",
      "on": [
       "Ghost"
@@ -1180,7 +986,7 @@
      "hold": true
     },
     {
-     "t": 20.9,
+     "t": 15.7,
      "kind": "medium",
      "on": [
       "Kiet"
@@ -1194,16 +1000,15 @@
     "time": "day",
     "mood": "warm"
    },
-   "seconds": 24,
+   "seconds": 18.4,
    "music": "chill",
    "cast": [
     {
      "name": "Kiet",
      "at": [
-      -8,
-      -4
+      -2.0,
+      -0.2
      ],
-     "yaw": 60,
      "face": "smile"
     },
     {
@@ -1217,8 +1022,8 @@
     {
      "name": "Gran",
      "at": [
-      14,
-      5
+      9,
+      1
      ],
      "yaw": -90
     }
@@ -1234,23 +1039,43 @@
    "beats": [
     {
      "t": 0.0,
-     "who": "Mom",
-     "sit": "sofa"
-    },
-    {
-     "t": 0.0,
      "who": "Kiet",
      "narrate": "Sáng hôm sau, Kiệt kể cho mẹ nghe *tất cả*.",
      "narrate_voice": "voice/23_dan.mp3"
     },
     {
-     "t": 0.4,
+     "t": 0.0,
+     "who": "Mom",
+     "sit": "sofa"
+    },
+    {
+     "t": 0.1,
      "who": "Kiet",
      "walk": "Mom",
      "speed": 6
     },
     {
-     "t": 2.6,
+     "t": 2.0,
+     "who": "Mom",
+     "look": "album",
+     "face": "confused"
+    },
+    {
+     "t": 2.4,
+     "who": "Mom",
+     "face": "o"
+    },
+    {
+     "t": 2.7,
+     "who": "Mom",
+     "talk": 3.08,
+     "say": "Mẹ ơi... sao con lại có thể quên mẹ được chứ?",
+     "voice": "voice/24_me.mp3",
+     "face": "cry",
+     "gesture": false
+    },
+    {
+     "t": 3.6,
      "who": "Kiet",
      "give": {
       "prop": "album",
@@ -1258,33 +1083,13 @@
      }
     },
     {
-     "t": 3.6,
-     "who": "Mom",
-     "look": "album",
-     "face": "confused"
-    },
-    {
-     "t": 4.3,
-     "who": "Mom",
-     "face": "o"
-    },
-    {
-     "t": 5.0,
-     "who": "Mom",
-     "talk": 3.08,
-     "say": "Mẹ ơi... sao con lại có thể quên mẹ được chứ?",
-     "face": "cry",
-     "gesture": false,
-     "voice": "voice/24_me.mp3"
-    },
-    {
-     "t": 9.6,
+     "t": 6.05,
      "who": "Kiet",
      "narrate": "Và trong giây phút ấy, mọi người đều *thấy* bà.",
      "narrate_voice": "voice/25_dan.mp3"
     },
     {
-     "t": 9.8,
+     "t": 6.05,
      "who": "Gran",
      "walk": [
       [
@@ -1295,64 +1100,64 @@
      "speed": 4
     },
     {
-     "t": 10.3,
+     "t": 6.85,
      "who": "Kiet",
      "look": "Gran",
      "face": "joy"
     },
     {
-     "t": 10.9,
+     "t": 7.35,
      "who": "Mom",
      "stand": true
     },
     {
-     "t": 11.3,
+     "t": 7.85,
      "who": "Mom",
      "look": "Gran",
      "face": "cry"
     },
     {
-     "t": 13.0,
+     "t": 9.2,
      "who": "Gran",
-     "look": "Mom",
      "talk": 1.12,
      "say": "Bà về rồi đây.",
-     "face": "joy",
-     "voice": "voice/26_ba.mp3"
+     "voice": "voice/26_ba.mp3",
+     "look": "Mom",
+     "face": "joy"
     },
     {
-     "t": 14.8,
+     "t": 10.45,
      "who": "Kiet",
      "pose": "cheer",
      "face": "joy"
     },
     {
-     "t": 15.1,
+     "t": 10.55,
      "who": "Mom",
      "pose": "cover_mouth_R",
      "face": "cry"
     },
     {
-     "t": 15.4,
+     "t": 10.65,
      "who": "Kiet",
      "narrate": "Trong thế giới này, không ai thật sự *biến mất*... chỉ cần còn một người nhớ đến họ.",
      "narrate_voice": "voice/27_dan.mp3"
     },
     {
-     "t": 17.2,
+     "t": 12.25,
      "who": "Gran",
      "look": "Kiet",
      "pose": "open_palms",
      "face": "smile"
     },
     {
-     "t": 19.2,
+     "t": 13.85,
      "who": "Mom",
      "face": "joy",
      "pose": "stand_a"
     },
     {
-     "t": 20.6,
+     "t": 14.45,
      "who": "Kiet",
      "face": "laugh"
     }
@@ -1368,7 +1173,7 @@
      "keep_two": true
     },
     {
-     "t": 2.5,
+     "t": 1.4,
      "kind": "medium",
      "on": [
       "Kiet",
@@ -1377,14 +1182,14 @@
      "keep_two": true
     },
     {
-     "t": 3.5,
+     "t": 2.6,
      "kind": "insert",
      "on": [
       "album"
      ]
     },
     {
-     "t": 4.9,
+     "t": 3.2,
      "kind": "close",
      "on": [
       "Mom"
@@ -1392,7 +1197,7 @@
      "hold": true
     },
     {
-     "t": 9.7,
+     "t": 6.05,
      "kind": "full",
      "on": [
       "Gran"
@@ -1400,21 +1205,21 @@
      "track": true
     },
     {
-     "t": 10.8,
+     "t": 6.85,
      "kind": "medium",
      "on": [
       "Kiet"
      ]
     },
     {
-     "t": 11.8,
+     "t": 7.85,
      "kind": "close",
      "on": [
       "Mom"
      ]
     },
     {
-     "t": 12.9,
+     "t": 9.05,
      "kind": "medium",
      "on": [
       "Gran"
@@ -1422,7 +1227,7 @@
      "front": true
     },
     {
-     "t": 14.7,
+     "t": 10.45,
      "kind": "full",
      "on": [
       "Kiet",
@@ -1432,21 +1237,21 @@
      "keep_two": true
     },
     {
-     "t": 17.1,
+     "t": 12.45,
      "kind": "close",
      "on": [
       "Gran"
      ]
     },
     {
-     "t": 19.1,
+     "t": 14.05,
      "kind": "medium",
      "on": [
       "Mom"
      ]
     },
     {
-     "t": 20.5,
+     "t": 15.45,
      "kind": "wide",
      "on": [
       "Gran",
@@ -1458,5 +1263,6 @@
     }
    ]
   }
- ]
+ ],
+ "sub_style": "bottom"
 }
